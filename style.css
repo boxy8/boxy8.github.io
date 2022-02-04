@@ -37,6 +37,7 @@ body {
     font-size: var(--fs-md);
     color: var(--clr-white);
     line-height: 1.5;
+    background-color: var(--clr-sky);
 }
 
 h1 {
@@ -98,12 +99,12 @@ header {
 
 .welcome-section {
     text-align: center;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: calc(3em + 25rem) 2rem 0;
-    background-color: var(--clr-sky);
+    padding: 0 2rem;
 }
 
 .mail-button {
@@ -124,8 +125,7 @@ header {
 /* Projects section */
 .projects-section {
     text-align: center;
-    background-color: var(--clr-sky);
-    padding: 25rem 2rem 10rem;
+    padding: 10rem 2rem;
 }
 
 .projects-grid {
