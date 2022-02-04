@@ -4,6 +4,7 @@
     --clr-sky: #11afcd;
     --clr-dark-blue: #2b466e;
     --clr-darker-blue: #1d3b52;
+    --clr-grass: #81fe59;
 
     --fs-xl: 2.4rem;
     --fs-md: 1.6rem;
@@ -89,6 +90,10 @@ header {
     padding: 1.6em;
 }
 
+.nav-list a:hover {
+    color: var(--clr-grass);
+}
+
 /* Welcome section */
 
 .welcome-section {
@@ -107,7 +112,6 @@ header {
     padding: 0.5em 1em;
     margin-top: 2rem;
     border-radius: 1em;
-    transition: 0.3s;
 }
 
 .mail-button:hover {
@@ -165,6 +169,7 @@ footer {
     text-align: center;
     font-size: 1rem;
     padding-bottom: 8rem;
+    color: var(--clr-white);
 }
 
 .links {
@@ -176,4 +181,8 @@ footer {
 .links i {
     font-size: var(--fs-xl);
     margin: 2rem;
+}
+
+.links i:hover {
+    color: var(--clr-grass);
 }
