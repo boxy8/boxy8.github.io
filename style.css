@@ -3,7 +3,7 @@
     --clr-white: #e3edff;
     --clr-sky: #11afcd;
     --clr-dark-blue: #2b466e;
-    --clr-main-gray: #303841;
+    --clr-darker-blue: #1d3b52;
 
     --fs-xl: 2.4rem;
     --fs-md: 1.6rem;
@@ -97,7 +97,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 23rem 2rem 20rem;
+    padding: calc(3em + 25rem) 2rem 0;
     background-color: var(--clr-sky);
 }
 
@@ -121,7 +121,7 @@ header {
 .projects-section {
     text-align: center;
     background-color: var(--clr-sky);
-    padding: 20rem 2rem;
+    padding: 25rem 2rem 10rem;
 }
 
 .projects-grid {
@@ -151,9 +151,29 @@ header {
     flex-wrap: wrap;
     max-width: 600px;
     justify-content: center;
+    align-items: center;
 }
 
 .skills-icon {
-    width: 10em;
+    width: 7.5em;
+    margin: 2rem;
+}
+
+/* footer */
+footer {
+    background-color: var(--clr-darker-blue);
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 8rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.links i {
+    font-size: var(--fs-xl);
     margin: 2rem;
 }
